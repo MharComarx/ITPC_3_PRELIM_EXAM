@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Registration</title>
-</head>
-
-<body>
-    <div style="text-align: center;">
-        <h1>Forgot your password?</h1>
-        <div>
-            <input type="text" placeholder="Username"> 
+    <title>Javascript Sample</title>
+    <style> 
+      #divContatiner {
+            text-align: center;
+        }
+        .redText {
+            color:red;
+            background-color: #bebebe;
             
-        </div>
-        <div style="margin-top: 1rem;">
-            <a href="./index.html">
-                <button>Reset password</button>
-            </a>
-        </div>
+        }
+
+        .redText:hover {
+            color:blue;
+            background-color:green;
+        }
+        
+        div{
+            margin-bottom: 1rem;
+            font-size: large;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="divContainer">
+        <h1>Login</h1>
+
+        <div><input type="text"
+             placeholder="Username" class="redText">
+            </div>
+        <div>
+            <input type="password"
+             placeholder="Password" class="redText">
+            </div>
+            <button>Register</button>
+        <div><button id="buttonLogin" >Login</button></div>
     </div>
 </body>
 </html>
-</html>
+
